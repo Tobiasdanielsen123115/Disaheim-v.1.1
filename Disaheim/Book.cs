@@ -4,12 +4,10 @@ using System.Text;
 
 namespace Disaheim
 {
-    public class Book
+    public class Book : Merchandise
     {
-       
-        public string ItemId { get; set; }
-
         
+                     
         public string Title { get; set; }
 
         
@@ -33,7 +31,7 @@ namespace Disaheim
         }
         public override string ToString()
         {
-            return "ItemId: " + ItemId + "," + " Title: " + Title + ", " + "Price: " + Price;
+            return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";
         }
 
     }

@@ -4,12 +4,10 @@ using System.Text;
 
 namespace Disaheim
 {
-    public class Amulet
+    public class Amulet : Merchandise // amulet skal arve fra merchandise 
     {
        
-        public string ItemId { get; set; }
-
-       
+               
         public string Design { get; set; }
         
         public Level Quality { get; set; }

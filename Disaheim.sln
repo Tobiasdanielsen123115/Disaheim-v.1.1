@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disaheim", "Disaheim\Disahe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisaheimTest", "DisaheimTest\DisaheimTest.csproj", "{640997CF-0B32-40AB-B1F8-08224D594313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest2", "UnitTest2\UnitTest2.csproj", "{702C2F34-29C1-43C7-B245-0A08E0F121DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest2", "UnitTest2\UnitTest2.csproj", "{702C2F34-29C1-43C7-B245-0A08E0F121DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest3", "UnitTest3\UnitTest3.csproj", "{ED5CB7DE-A61D-4E0F-9601-41A0EEBB7778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest3", "UnitTest3\UnitTest3.csproj", "{ED5CB7DE-A61D-4E0F-9601-41A0EEBB7778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLib", "UtilityLib\UtilityLib.csproj", "{438D0A30-C809-4E25-9190-51A72EF09E5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{ED5CB7DE-A61D-4E0F-9601-41A0EEBB7778}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5CB7DE-A61D-4E0F-9601-41A0EEBB7778}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED5CB7DE-A61D-4E0F-9601-41A0EEBB7778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438D0A30-C809-4E25-9190-51A72EF09E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438D0A30-C809-4E25-9190-51A72EF09E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438D0A30-C809-4E25-9190-51A72EF09E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438D0A30-C809-4E25-9190-51A72EF09E5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
