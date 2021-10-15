@@ -4,12 +4,13 @@ using System.Text;
 
 namespace Disaheim
 {
-    public class Controller
+    public class Controller// vi har endelig fordelt ud over de tre nye repositóries, så denne class kan i princippet slettes 
     {
 
         public List<Book> Books { get; set; } //laver en list "get set = property"
         public List<Amulet> Amulets { get; set; }//-...-
         public List<Course> Courses { get; set; }
+        
         
 
         public Controller()

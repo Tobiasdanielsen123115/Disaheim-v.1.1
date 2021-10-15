@@ -10,7 +10,7 @@ namespace Disaheim
         private string itemId; // det merchandise kan, kan amulet og book også grundet nedarvining.
 
         
-        public string ItemId
+        public string ItemId // vi får ItemId Arvet ned hos amulet og books osv
         {
             get { return itemId; }
             set { itemId = value; }
